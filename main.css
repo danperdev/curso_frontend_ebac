@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #874aa3;
+    color: #fff;
+
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 300px;
+    width: 100%;
+
+}
+
+form {
+    margin-top: 40px;
+}
+
+input, textarea {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 12px;
+    width: 100%;
+    resize: none;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border-style: none;
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+button {
+    background-color: #54b97e;
+    border-radius: 5px;
+    border-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-left: 60px;
+    width: 170px;
+    resize: none;
+    font-family: 'Orbitron', sans-serif;
+}
+
+button:hover {
+    background-color: #459a68;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#message-return {
+    background-color: #459a68;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    width: 420px;
+    text-align: center ;
+    display: none;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: -55px;
+    font-size: 17px;
+    height: 45px;
+}
+
+
